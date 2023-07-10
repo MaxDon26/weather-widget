@@ -1,3 +1,3 @@
-# wather-widget
+# waether-widget
 
 npm run dev for start
