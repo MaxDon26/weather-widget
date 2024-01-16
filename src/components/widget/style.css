@@ -1,0 +1,74 @@
+.widget {
+  border-radius: 10px;
+  width: 400px;
+  /* max-height: 150px; */
+  padding: 20px;
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: max-height 0.5s;
+  overflow: hidden;
+  gap: 20px;
+  background-color: #fff;
+}
+
+.widget-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.widget-submit {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  background-color: inherit;
+  font-weight: 700;
+  font-size: 18px;
+  border: 2px solid #282880;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.widget-submit:hover {
+  transform: scale(1.05);
+}
+.info {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.info-temp,
+.info-hum {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+.widget-title {
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.widget-image {
+  margin: 0 auto;
+  display: block;
+  max-width: 200px;
+}
+
+.description {
+  font-weight: 700;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.spinner {
+  margin: 30px auto;
+}

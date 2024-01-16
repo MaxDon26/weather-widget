@@ -1,0 +1,12 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(174, 202, 238);
+  background: radial-gradient(
+    circle,
+    rgba(174, 202, 238, 1) 0%,
+    rgba(148, 233, 201, 1) 100%
+  );
+}
